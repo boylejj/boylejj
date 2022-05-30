@@ -1,7 +1,13 @@
-- 👋 Hi, I’m @boylejj
-- 👀 I’m interested in Product Management.
-- 🌱 I’m currently learning the basics of git and GitHub
-- 💞️ I’m looking to collaborate on anything that will help me learn something new.
+👋 Hi, I’m Jim Boyle (@boylejj). 
+
+🏢 I am a Product Manager at GitHub focusing on GitHub Enterprise, where I am responsible for our audit log functionality.
+
+☢️ Prior to joining GitHub, I worked as a product manager for Westinghouse Electric Company's nuclear physics software.
+
+🤓 I earned my MS in Engineering & Technology Innovation Management from Carnegie Mellon University, and my BS in Mechanical Engineering from Vanderbilt University.
+
+🏡 Outside of work, I am married to my best friend, Carly, and we're raising a fiercly smart and funny 3 year old daughter.
+
 
 <!---
 boylejj/boylejj is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
