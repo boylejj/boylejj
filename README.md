@@ -6,7 +6,7 @@
 
 🤓 I earned my MS in Engineering & Technology Innovation Management (E&TIM) from Carnegie Mellon University, and my BS in Mechanical Engineering from Vanderbilt University.
 
-🏡 Outside of work, I am married to my best friend, Carly, and we're raising our fiercly smart and funny 3 year old daughter.
+🏡 Outside of work, I am married to my best friend, Carly, and we're raising our fiercly smart and funny 4 year old daughter.
 
 
 <!---
