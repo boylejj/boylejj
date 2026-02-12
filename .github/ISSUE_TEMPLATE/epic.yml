@@ -1,0 +1,116 @@
+name: "🛵 Epic"
+description: "A 4-6 week group of related work that contributes to an Initiative."
+title: "[Epic] "
+labels: ["epic"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🛵 Epic
+        An Epic is a 4–6 week group of related work that typically contributes to an Initiative. Epics are composed of multiple Batches. An Epic completes some meaningful work and can stand on its own.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: "One or two human-readable sentences describing the epic."
+      placeholder: "Provide a brief summary of this epic."
+    validations:
+      required: true
+
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Objectives
+      description: "What is the problem you are trying to solve? What does this Epic accomplish?"
+      placeholder: "Describe what this epic delivers and why it matters."
+    validations:
+      required: true
+
+  - type: textarea
+    id: team
+    attributes:
+      label: Team
+      description: "List the team members and their roles."
+      value: |
+        | Role & Responsibility | Username(s) |
+        |--|--|
+        | DRI | @username |
+        | Engineering | @username(s) |
+        | Product | @username(s) |
+        | Design | @username(s) |
+        | TPM | @username(s) |
+        | Others | @username(s) |
+    validations:
+      required: true
+
+  - type: textarea
+    id: measuring-success
+    attributes:
+      label: Measuring Success
+      description: "Dashboards, KPIs, and other indicators of success for this epic."
+      placeholder: "How will you know this epic was successful?"
+    validations:
+      required: false
+
+  - type: textarea
+    id: definition-of-done
+    attributes:
+      label: Definition of Done
+      description: "What must be true for this epic to be considered complete?"
+      value: |
+        - [ ] <done criteria>
+        - [ ] <done criteria>
+    validations:
+      required: true
+
+  - type: textarea
+    id: corresponding-work
+    attributes:
+      label: Corresponding Work
+      description: "Link to the Batches that make up this Epic."
+      value: |
+        ```[tasklist]
+        - [ ] Batch 1
+        - [ ] Batch 2
+        ```
+    validations:
+      required: false
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks
+      description: "List of known risks to complete this work."
+      placeholder: |
+        - Risk: ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: "List of known dependencies to complete this work."
+      placeholder: |
+        - Dependency: ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: release-schedule
+    attributes:
+      label: Release Schedule
+      description: "High level timeline of planned releases."
+      placeholder: "Outline the expected release timeline."
+    validations:
+      required: false
+
+  - type: textarea
+    id: supporting-documentation
+    attributes:
+      label: Supporting Documentation
+      description: "Links to documents, spreadsheets, issues, etc."
+      placeholder: "Add links to relevant documentation."
+    validations:
+      required: false
