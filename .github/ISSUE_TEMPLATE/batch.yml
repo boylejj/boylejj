@@ -1,0 +1,64 @@
+name: "🚲 Batch"
+description: "A few days to 2-week piece of work that delivers self-contained, shippable value."
+title: "[Batch] "
+labels: ["batch"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚲 Batch
+        A Batch is a piece of work significant enough to capture meaningful progress or value, while being small enough to complete relatively quickly (a few days to two weeks) by 1–4 engineers. When complete, a batch delivers meaningful value on its own, allowing the larger effort to be suspended if needed.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: "One or two human-readable sentences describing the batch."
+      placeholder: "Provide a brief summary of what this batch delivers."
+    validations:
+      required: true
+
+  - type: textarea
+    id: team
+    attributes:
+      label: Team
+      description: "Who is responsible for this batch?"
+      value: |
+        | Role & Responsibility | Username |
+        |--|--|
+        | DRI | @username |
+    validations:
+      required: true
+
+  - type: textarea
+    id: corresponding-work
+    attributes:
+      label: Corresponding Work
+      description: "Link to the Tasks that make up this Batch."
+      value: |
+        ```[tasklist]
+        - [ ] Task 1
+        - [ ] Task 2
+        ```
+    validations:
+      required: false
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: "List of dependencies that must be resolved before or during this batch."
+      value: |
+        - [ ] <dependency 1>
+        - [ ] <dependency 2>
+    validations:
+      required: false
+
+  - type: textarea
+    id: supporting-documentation
+    attributes:
+      label: Supporting Documentation
+      description: "Links to documents, spreadsheets, issues, etc."
+      placeholder: "Add links to relevant documentation."
+    validations:
+      required: false
