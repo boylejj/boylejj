@@ -1,0 +1,124 @@
+name: "🏎️ Initiative"
+description: "A 1-3 quarter, multi-release investment that delivers measurable customer and business outcomes."
+title: "[Initiative] "
+labels: ["initiative"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🏎️ Initiative
+        An Initiative is a 1–3 quarter, multi-release investment that delivers measurable customer and business outcomes. It is the largest grouping of work, composed of multiple Epics around a unified theme or goal. It serves as a complete tracking issue for getting a project from 0 to completely done.
+
+  - type: textarea
+    id: introduction
+    attributes:
+      label: Introduction
+      description: "TL;DR — one or two sentences describing this initiative."
+      placeholder: "Provide a brief summary of this initiative."
+    validations:
+      required: true
+
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Objectives
+      description: "What is the problem you are trying to solve? What does this Initiative accomplish?"
+      placeholder: "Describe the goals and problems being addressed."
+    validations:
+      required: true
+
+  - type: textarea
+    id: team
+    attributes:
+      label: Team
+      description: "List the team members and their roles."
+      value: |
+        | Role & Responsibility | Username(s) |
+        |--|--|
+        | DRI | @username |
+        | Engineering | @username(s) |
+        | Product | @username(s) |
+        | Design | @username(s) |
+        | TPM | @username(s) |
+        | Others | @username(s) |
+    validations:
+      required: true
+
+  - type: textarea
+    id: dri-responsibilities
+    attributes:
+      label: DRI Responsibilities
+      description: "Outline the DRI's key responsibilities."
+      value: |
+        - Provide bi-weekly status updates on area deliverables
+        - Read more about the DRI expectations
+    validations:
+      required: false
+
+  - type: textarea
+    id: key-results
+    attributes:
+      label: Key Results (KRs)
+      description: "List measurable key results for this initiative."
+      placeholder: |
+        - KR1: ...
+        - KR2: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: important-dates
+    attributes:
+      label: Important Dates
+      description: "Kickoff, design handoff, campaign launch, product launch, etc."
+      placeholder: |
+        - Kickoff: YYYY-MM-DD
+        - Engineering Complete: YYYY-MM-DD
+        - GA: YYYY-MM-DD
+    validations:
+      required: false
+
+  - type: textarea
+    id: risks-dependencies
+    attributes:
+      label: Risks & Dependencies
+      description: "List of known risks & dependencies to complete this work."
+      placeholder: |
+        - Risk: ...
+        - Dependency: ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: corresponding-work
+    attributes:
+      label: Corresponding Work
+      description: "Link to the Epics that make up this Initiative."
+      value: |
+        ```[tasklist]
+        - [ ] Epic 1
+        - [ ] Epic 2
+        ```
+    validations:
+      required: false
+
+  - type: textarea
+    id: communication-plan
+    attributes:
+      label: Communication Plan
+      description: "How will updates be shared?"
+      value: |
+        - Discussions: <link>
+        - Slack channel: #<channel>
+        - Regular Meetings: <cadence>
+    validations:
+      required: false
+
+  - type: textarea
+    id: library-of-resources
+    attributes:
+      label: Library of Resources
+      description: "Links to relevant documents, spreadsheets, issues, etc."
+      placeholder: "Add links to relevant resources."
+    validations:
+      required: false
